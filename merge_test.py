@@ -86,8 +86,8 @@ class MergeFuncTestCase(unittest.TestCase):
         """
         Unit test for merge function
 
-        len(list1) > 0
-        len(list2) = 0
+        len(list1) = 0
+        len(list2) > 0
         """
         list1, list2, expect_answer = read_testcases(3)
         answer = merge(list1, list2)
